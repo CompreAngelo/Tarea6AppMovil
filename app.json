@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "navigation-app",
+    "slug": "tarea-6",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "package": "com.loricode.navigation-app",
+        "versionCode": 1,
+        "foregroundImage": "./assets/angelo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.angelo.navigationapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1e34203f-19be-4c0c-837a-66ec21f12941"
+      }
+    }
+  }
+}
